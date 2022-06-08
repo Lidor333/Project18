@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "BST.h"
-#include "TreePrintLibrary.h"
 
 void main() {
 	BST bst;
@@ -23,6 +22,5 @@ void main() {
 		printf("the number of leaves is the same");
 
 	printTreeInorder(pbst);
-	print_ascii_tree(pbst);
 	destroyBST(pbst);
 }

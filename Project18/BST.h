@@ -26,4 +26,3 @@ void printTreeInorder(BST* bst);
 void destroyBST(BST* bst);
 int findIndexNFromLast(BST* bst, int N);
 int sameHeightLeaves(BST* bst);
-void print_ascii_tree(TreeNode* root);

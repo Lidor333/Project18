@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include"BST.h"
-#include"TreePrintLibrary.h"
 #define TEST(newNode) do{if (newNode == NULL){printf("error");exit(1);}}while(0)
 
 void initBST(BST* bst)
